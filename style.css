@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background: chartreuse;
+}
+
+.featured-image {
+    height: 400px;
+}
+
+.goatcontainer {
+    background: green;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#goats {
+    background: green;
+}

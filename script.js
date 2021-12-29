@@ -8,7 +8,14 @@ const goatObj = [
         "lore": "DELUXE GOAT",
         "image": "goat/faf566b9-d119-49dd-be6c-ee286934baed.jpg",
         "description": "Moog is a very calm full male Nigerian dwarf, he is nice natured and likes female goats.",
-        "price": "500"
+        "price": 500
+    },
+    {
+        "name": "Sage",
+        "lore": "SMALL GOAT",
+        "image": "goat/sage.jpeg",
+        "description": "Sage is a cow and a fat goat and very fat and is more fat than a donkey :>",
+        "price": 100
     }
 ]
 
@@ -56,5 +63,5 @@ function start() {
 start()
 
 function buy(goat) {
-    window.location.href = "./buy.html?" + goat
+    window.location.href = "./buy.html?goat=" + goat
 }

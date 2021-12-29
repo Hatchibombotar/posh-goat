@@ -1,10 +1,13 @@
 body {
     text-align: center;
     background: chartreuse;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
 .featured-image {
-    height: 400px;
+    max-width: 300px;
+    height: auto;
 }
 
 .goatcontainer {
@@ -15,4 +18,19 @@ body {
 
 #goats {
     background: green;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#goats > div {
+    padding: 5px;
+    margin: 5px;
+}
+
+.header {
+    background: green;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
 }

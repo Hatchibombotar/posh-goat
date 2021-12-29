@@ -22,7 +22,7 @@ body {
     border-radius: 5px;
 }
 
-#goats > div {
+#goats>div {
     padding: 5px;
     margin: 5px;
 }
@@ -33,4 +33,15 @@ body {
     margin: 5px;
     color: white;
     border-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+    button {
+        width: 100px;
+        height: 40px;
+    }
+    select {
+        width: 100px;
+        height: 40px;
+    }
 }
